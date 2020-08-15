@@ -1,6 +1,6 @@
 # AngularTourOfHeroes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
 
 ## Development server
 
@@ -12,7 +12,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 ## Running unit tests
 
@@ -25,3 +25,22 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+ng version
+ng new angular-tour-of-heroes
+ng serve --open
+ng update @angular/cli @angular/core
+ng lint
+ng build
+
+ng generate component heroes
+ng generate component hero-detail
+ng generate service hero
+ng generate component messages
+ng generate service message
+ng generate module app-routing --flat --module=app
+ng generate component dashboard
+ng generate service InMemoryData
+ng generate component hero-search
+
+npm install angular-in-memory-web-api --save

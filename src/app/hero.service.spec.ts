@@ -1,15 +1,16 @@
-import { TestBed, inject } from '@angular/core/testing';
+import { TestBed } from '@angular/core/testing';
 
 import { HeroService } from './hero.service';
 
 describe('HeroService', () => {
+  let service: HeroService;
+
   beforeEach(() => {
-    TestBed.configureTestingModule({
-      providers: [HeroService]
-    });
+    TestBed.configureTestingModule({});
+    service = TestBed.inject(HeroService);
   });
 
-  it('should be created', inject([HeroService], (service: HeroService) => {
+  it('should be created', () => {
     expect(service).toBeTruthy();
-  }));
+  });
 });
